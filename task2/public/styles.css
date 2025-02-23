@@ -1,0 +1,197 @@
+/* .main-page-body .title {
+    text-align: center;
+}
+
+body {
+    background: url('https://btsdiary.wordpress.com/wp-content/uploads/2015/01/blog-background.png');
+    background-repeat: repeat-y;
+    background-size: cover;
+    text-align: center;
+}
+
+.main-page-body {
+    width: 50vw;
+    margin: auto;
+}
+.main-page-body h2 {
+    padding-left: 20px;
+}
+.main-page-body ul li {
+    padding: 10px 0;
+    list-style: none;
+}
+.addBtn {
+    display: inline-block;
+    background-color: #007bff; 
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-left: 20px;
+}
+
+.new-blog-form {
+    width: 40vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.add-post-page {
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+.post-body {
+    width: 50vw;
+    margin: auto;
+} */
+
+
+
+
+
+
+/* General body and background */
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('https://images.unsplash.com/photo-1739869610059-86fabc7bcd7b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNDN8fHxlbnwwfHx8fHw%3D.png');
+    background-repeat: repeat-y;
+    background-size: cover;
+    text-align: center;
+    color: #333; /* Darker text for better readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Main page body styles */
+.main-page-body {
+    width: 50vw;
+    margin: auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Subtle background to make text readable */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.main-page-body .title {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Headings and paragraphs */
+h2 {
+    font-size: 1.6em;
+    margin: 10px 0;
+    color: #333;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+}
+
+/* List items */
+.main-page-body ul li {
+    padding: 10px 0;
+    list-style: none;
+    font-size: 18px;
+}
+
+/* Add button style */
+.addBtn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease-in-out;
+    margin-left: 20px;
+}
+
+.addBtn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+/* Add post page */
+.add-post-page {
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* New blog form */
+.new-blog-form {
+    width: 40vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Post body */
+.post-body {
+    width: 50vw;
+    margin: auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 768px) {
+    .main-page-body {
+        width: 90vw; /* Use more screen width for smaller devices */
+    }
+    
+    .new-blog-form {
+        width: 90vw; /* Full width form on small screens */
+    }
+    
+    .post-body {
+        width: 90vw; /* Full width post content */
+    }
+
+    .addBtn {
+        width: 100%; /* Full width button on mobile */
+        margin-left: 0;
+    }
+}
+
+/* Further refinements on mobile */
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.4em;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .addBtn {
+        font-size: 14px;
+    }
+}

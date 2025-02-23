@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Post</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="add-post-page">
+    <h1>Add a New Blog Post</h1>
+    <form action="/add-post" method="POST" class="new-blog-form">
+        <label>Title:</label>
+        <input type="text" name="title" required>
+        <br>
+        <label>Content:</label>
+        <textarea name="content" required></textarea>
+        <br>
+        <label>Author:</label>
+        <input type="text" name="author" required> 
+        <button type="submit">Add Post</button>
+    </form>
+    <a href="/posts">Back to Posts</a>
+</body>
+</html>
